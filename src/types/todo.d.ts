@@ -1,6 +1,7 @@
 interface ITodoItem {
   id: string;
-  complete: boolean;
+  completed: boolean;
+  content: string;
   editing: boolean;
 }
 
